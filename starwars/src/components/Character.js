@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import Cards from "./Cards";
 
-const Characters = props => {
+const Characters = _props => {
 
   const [characters, setCharacters] = useState([]);
 
@@ -22,12 +22,12 @@ const Characters = props => {
   console.log(characters);
 
   return (
-    <div>
+    <div className = "info">
       {characters.map(character => {
         return (
           <Cards 
             name = {character.name}
-            image = {character.image}
+            image = {character.image} 
             origin = {character.origin.name}
             species = {character.species}
             type = {character.type}

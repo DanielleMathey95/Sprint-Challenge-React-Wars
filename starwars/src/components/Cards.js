@@ -8,6 +8,7 @@ const Card = styled.div`
   margin-left: auto;
   margin-right: auto;
   border-radius: 10%;
+  margin-bottom: 5%;
 `;
 
 const Explanation = styled.p`
@@ -17,7 +18,7 @@ const Explanation = styled.p`
 
 const Title = styled.h2`
   font-size: 1.5rem;
-  background: -webkit-linear-gradient(left, #081a8c, #29d606,#58088c);
+  background: -webkit-linear-gradient(left, #081a8c, #29d606, #58088c);
 `;
 
 const CharacterImage = styled.img`
